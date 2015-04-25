@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text">#ff221f1f</color>
+    <color name="text_subdued">#ff615e5c</color>
+    <color name="window_bg">#ffd4cece</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="primary_app_color">#673AB7</color>
+    <color name="primary_app_color_dark">#512DA8</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="contrast_app_color">#FFEB3B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+</resources>
