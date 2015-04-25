@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
             Log.i(TAG, "onBroadcastError " + error.getMessage());
         }
     };
-    // By default, Kickflip stores video in a "Kickflip" directory on external storage
+    // By default, we are stores video in a "Kickflip" directory on external storage
     private String mRecordingOutputPath = new File(Environment.getExternalStorageDirectory(), "MySampleApp/index.m3u8").getAbsolutePath();
 
     @Override
@@ -104,7 +104,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         tintManager.setStatusBarTintEnabled(true);
         // enable navigation bar tint
         tintManager.setNavigationBarTintEnabled(false);
-        tintManager.setTintColor(getResources().getColor(R.color.kickflip_green));
+        tintManager.setTintColor(getResources().getColor(R.color.primary_app_color_dark));
     }
 
     @Override
