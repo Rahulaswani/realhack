@@ -18,4 +18,16 @@
     <color name="primary_pink_light">#F8BBD0</color>
     <color name="accent">#E040FB</color>
 
+    <color name="primary_yello">#FFC107</color>
+    <color name="primary_yellow_dark">#FFA000</color>
+    <color name="primary_lightest_yellow">#FFEB3B</color>
+
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
 </resources>

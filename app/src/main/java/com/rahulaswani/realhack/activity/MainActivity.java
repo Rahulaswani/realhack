@@ -19,6 +19,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.rahulaswani.realhack.R;
+import com.rahulaswani.realhack.fragment.AgentProfileFragment;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import java.io.File;
@@ -140,7 +141,7 @@ public class MainActivity extends Activity implements MainFragmentInteractionLis
         if (!handleLaunchingIntent()) {
             if (savedInstanceState == null) {
                 getFragmentManager().beginTransaction()
-                        .replace(R.id.container, new StreamListFragment())
+                        .replace(R.id.container, new AgentProfileFragment())
                         .commit();
             }
         }
